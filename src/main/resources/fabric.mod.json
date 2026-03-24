@@ -1,16 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "scoreboardcustomizer",
-  "version": "${version}",
-  "name": "Scoreboard Customizer",
-  "description": "Кастомизация scoreboard на серверах",
-  "authors": [
-    "YourName"
-  ],
-  "contact": {
-    "homepage": "https://github.com/mynamelynox/scoreboard-customizer",
-    "sources": "https://github.com/mynamelynox/scoreboard-customizer"
-  },
+  "id": "examplemod",
+  "version": "1.0.0",
+  "name": "Example Mod",
+  "description": "Мой первый мод",
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
@@ -19,7 +12,7 @@
     ]
   },
   "mixins": [
-    "scoreboardcustomizer.mixins.json"
+    "examplemod.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.0",
